@@ -50,16 +50,16 @@ export default function Home() {
               Parth Juneja
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl lg:text-4xl text-light_mid2 dark:text-sand">
-              ML Enthusiast | Front End Developer
+              Software Developer
             </h3>
             <p className=" text-md py-5 leading-8 text-light_front md: text-xl mx-auto max-w-xl lg:text-2xl lg:max-w-2xl dark:text-mud">
-              Hi, I&apos;m Parth, a Comp Sci. student from New Delhi, India. With the
+              Hi, I&apos;m Parth, a software developer / engineer. With the
               help of ML and AI, I can help you create a better experience for
               your users with{" "}
               <span className="text-earth dark:text-pale">
-                Responsive Websites
+                responsive Websites and Apps
               </span>{" "}
-              and <span className="text-earth dark:text-pale">Mobile Apps</span>
+              and <span className="text-earth dark:text-pale">customized Software solutions</span>
               .
             </p>
           </div>

@@ -14,16 +14,31 @@ function Skills() {
         </h3>
         <p className=" min-w-fit text-center text-md py-5 leading-8 lg:text-xl text-light_mid2 dark:text-mid2">
           {" "}
-          I can help you build a responsive website from scratch. Be it Android
-          apps or iOS apps, I can help provide clean, affordable solutions to
-          your business requirements.{" "}
+          As a software developer, I can offer a range of services to help you
+          build your website or app. I specialize in implementing beautiful
+          designs that are modern, stylish, and responsive. I can also help you
+          build a robust, scalable, and secure codebase for your website or app.
+          With my experience in programming languages such as Python, C++, and
+          JavaScript, and frameworks such as ReactJS, I can adapt to new
+          technologies and tech stacks with ease. Additionally, I can provide
+          credible feedback throughout the design and development process,
+          ensuring that your website or app meets your essential requirements.I
+          natively speak in English and Hindi, making communication and
+          understanding your needs a breeze. With tools such as Figma, Slack,
+          and GitHub, I can help you bring your vision to life.{" "}
         </p>
       </div>
 
       <div className="lg:flex gap-10">
-        <div className=" bg-fore  text-center shadow-lg p-10 rounded-xl my-10 dark:bg-mid1">
-          <Image src={design} width={100} height={100} className="mx-auto" alt=""/>
-          <h3 className="text-lg text-light_front gray font-medium pt-8 pb-2 dark:text-fore">
+        <div className=" bg-fore text-center shadow-lg p-3 md:p-6 lg:p-10 rounded-xl my-5 lg:my-10 dark:bg-mid1">
+          <Image
+            src={design}
+            width={100}
+            height={100}
+            className="mx-auto"
+            alt=""
+          />
+          <h3 className="text-lg text-light_front gray font-medium md:pt-4 lg:pt-8 pb-2 dark:text-fore">
             Beautfiul Designs
           </h3>
           <p className="text-light_front dark:text-mid2">
@@ -35,15 +50,20 @@ function Skills() {
           <h4 className="py-4 text-slate-800 dark:text-pinkish">
             <HiSparkles className="inline" /> Tools I Use:
           </h4>
-          <p className="text-mud dark:text-calm pb-1">React Native/JS</p>
+          <p className="text-mud dark:text-calm pb-1">JavaScript / Typescript</p>
           <p className="text-mud dark:text-calm pb-1">TailWind CSS</p>
-          <p className="text-mud dark:text-calm pb-1">Material UI</p>
-          <p className="text-mud dark:text-calm pb-1">Canva</p>
+          <p className="text-mud dark:text-calm pb-1">React</p>
         </div>
 
-        <div className=" bg-fore  text-center shadow-lg p-10 rounded-xl my-10 dark:bg-mid1">
-          <Image src={code} width={100} height={100} className="mx-auto" alt=""/>
-          <h3 className="text-lg text-light_front gray font-medium pt-8 pb-2 dark:text-fore">
+        <div className=" bg-fore text-center shadow-lg p-3 md:p-6 lg:p-10 rounded-xl my-5 lg:my-10 dark:bg-mid1">
+          <Image
+            src={code}
+            width={100}
+            height={100}
+            className="mx-auto"
+            alt=""
+          />
+          <h3 className="text-lg text-light_front gray font-medium md:pt-4 lg:pt-8 pb-2 dark:text-fore">
             Robust Code
           </h3>
           <p className="text-light_front dark:text-mid2">
@@ -55,14 +75,14 @@ function Skills() {
           <h4 className="py-4 text-slate-800 dark:text-pinkish">
             <HiSparkles className="inline" /> Languages and Tools:
           </h4>
+          <p className="text-mud dark:text-calm pb-1">Docker and CI/CD</p>
           <p className="text-mud dark:text-calm pb-1">Rest APIs w/ Axios</p>
-          <p className="text-mud dark:text-calm pb-1">PyTorch and SciLearn</p>
+          <p className="text-mud dark:text-calm pb-1">PyTorch and SKLearn</p>
           <p className="text-mud dark:text-calm pb-1">Pandas and NumPy</p>
           <p className="text-mud dark:text-calm pb-1">MongoDB and MySQL</p>
-
         </div>
 
-        <div className=" bg-fore  text-center shadow-lg p-10 rounded-xl my-10 dark:bg-mid1">
+        <div className=" bg-fore text-center shadow-lg p-3 md:p-6 lg:p-10 rounded-xl my-5 lg:my-10 dark:bg-mid1">
           <Image
             src={consulting}
             width={100}
@@ -70,7 +90,7 @@ function Skills() {
             className="mx-auto"
             alt=""
           />
-          <h3 className="text-lg text-light_front gray font-medium pt-8 pb-2 dark:text-fore">
+          <h3 className="text-lg text-light_front gray font-medium md:pt-4 lg:pt-8 pb-2 dark:text-fore">
             Credible Feedback
           </h3>
           <p className="text-light_front dark:text-mid2">
@@ -80,8 +100,9 @@ function Skills() {
             app involving your feedback each step of the way.
           </p>
           <h4 className="py-4 text-slate-800 dark:text-pinkish">
-            <HiSparkles className="inline"/> Tools I Use
+            <HiSparkles className="inline" /> Tools I Use
           </h4>
+          <p className="text-mud dark:text-calm pb-1">AGILE methodology</p>
           <p className="text-mud dark:text-calm pb-1">Figma Wireframing</p>
           <p className="text-mud dark:text-calm pb-1">Slack and Whatsapp</p>
           <p className="text-mud dark:text-calm pb-1">GitHub</p>

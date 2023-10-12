@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import instagram from "../public/instagram.png";
-import whatsapp from "../public/whatsapp.png";
+import chessai from "../public/chessai.png";
 
 function Projects() {
   return (
@@ -14,7 +14,7 @@ function Projects() {
       <div className="flex-row">
 
         <div className="flex-0.9 p-10 hover:opacity-60 cursor-pointer">
-          <a href="https://github.com/ParthJuneja/insta-clone" target="_blank">
+          <a href="https://leoclubes.org" target="_blank">
           <Image
             src={instagram}
             className="rounded-lg object-cover "
@@ -26,9 +26,9 @@ function Projects() {
           </a>
         </div>
         <div className="flex-0.9 p-10 hover:opacity-60 cursor-pointer">
-          <a href="https://github.com/ParthJuneja/whatsapp-clone" target="_blank">
+          <a href="https://github.com/ParthJuneja/chessAI" target="_blank">
           <Image
-            src={whatsapp}
+            src={chessai}
             className="rounded-lg object-cover "
             width={"100%"}
             height={"100%"}
