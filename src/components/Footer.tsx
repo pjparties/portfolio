@@ -2,8 +2,8 @@ import { AiFillGithub, AiFillLinkedin, AiFillTwitterSquare } from "react-icons/a
 
 const Footer = () => {
     return (
-        <footer className="bg-background">
-            <div className="mt-8 socials flex flex-row gap-8">
+        <footer className="bg-background my-8">
+            <div className=" socials flex flex-row gap-8">
                 <a href="" target="_blank">
                     <AiFillGithub size={40} className="text-secondary hover:text-secondaryLight cursor-pointer" onClick={() => window.open('https://github.com/pjparties')} />
                 </a>
