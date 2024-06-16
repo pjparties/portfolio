@@ -1,3 +1,4 @@
+import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
                 <p className="text-primary text-5xl font-bold font-mono">
                     Hey, It's Parth
                 </p>
+                <Footer />
             </div>
         </div>
     )
