@@ -1,6 +1,8 @@
 import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
 import hero from '../../assets/hero2.jpeg';
+import chessAI from '../../assets/ChessAI.png';   
+import peerio from '../../assets/peerio.png';
 
 
 const Hero = () => {
@@ -22,12 +24,38 @@ const Hero = () => {
     )
 }
 
+const ProjectCard = ({ projImage, projTitle, projDesc, projLink }: { projImage: string, projTitle: string, projDesc: string, projLink: string }) => {
+    return (
+        <a className="project-card w-fit text-primary flex flex-col" href={projLink}>
+            <div className="img-container w-fit h-fit hover:scale-105 eas duration-200 overflow-clip">
+                <img src={projImage} alt="Project Image" className="projectimage mx-auto h-full w-full bg-[radial-gradient(circle_at_50%_50%,var(--tw-gradient-stops))] from-[#d8ddf8] from-10% via-[#d8ddf8] via-40% to-background to-60%" />
+            </div>
+            <div className="project-desc pt-5 mb-3">
+                <h3 className="text-2xl md:text-3xl tracking-wide font-mono font-bold mb-6 text-left">{projTitle}</h3>
+                <p className="text-xl md:text-xl tracking-wide font-normal leading-5 text-left">{projDesc}</p>
+            </div>
+        </a>
+
+    )
+}
+
+const Projects = () => {
+
+    return (
+        <div className="container grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 mx-auto py-10">
+            <ProjectCard projImage={peerio} projTitle='🌱Peer.io' projDesc='Personal Project •  Full Stack PWA with websockets • Real-time chat application to connect like-minded users for productivity eg. Peer Programming' projLink='https://github.com/pjparties/peer-io-frontend' />
+            <ProjectCard projImage={chessAI} projTitle='♟️ChessAI' projDesc='Personal Project •  Deep Learning and Computer Vision • Live Chessboard annotation implementing research papers and analysis using Stockfish API' projLink='https://github.com/pjparties/chessAI' />
+        </div>
+    )
+}
+
 const Home = () => {
     return (
         <div className='app-wrapper px-[24px] lg:px-[126px]'>
             <div className="bg-background ">
                 <Navbar />
                 <Hero />
+                <Projects />
                 <Footer />
             </div>
         </div>

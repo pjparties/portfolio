@@ -10,6 +10,9 @@ export default {
         "./src/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
+        backgroundImage: {
+            'radial-gradient': 'radial-gradient(circle, var(--tw-gradient-stops))',
+        },
         extend: {
             fontFamily: {
                 mono: ['Space Mono', ...defaultTheme.fontFamily.mono],  
