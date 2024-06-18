@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
         <div className='bg-background flex justify-between items-center py-5 max-w-[1240px]'>
             {/* Logo */}
-            <img src={logo} alt='logo' className='w-10 h-10 z-10 ease-in-out' />
+            <img src={logo} alt='logo' title='look at you being meticulous' className='w-10 h-10 z-10 ease-in-out' />
             {/* Desktop Navigation */}
             <ul className='hidden md:flex'>
                 <li >
