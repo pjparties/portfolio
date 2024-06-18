@@ -17,7 +17,7 @@ const AboutMe = () => {
                 </p>
                 <p className='text-xl !leading-loose mb-2 md:mb-5'>
                     I enjoy teaching and mentoring. Serving as a <span className='font-bold'>Section Leader at Stanford Code In Place</span> was a particularly rewarding experience.                </p>
-                <p className='text-xl font-bold !leading-loose mb-2 md:mb-5'>
+                <p className='text-xl font-bold !leading-loose mb-5'>
                     My mission is to make a significant impact by creating strategic solutions that push boundaries and benefit communities. 🏘️
                 </p>
             </div>
