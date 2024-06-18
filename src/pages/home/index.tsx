@@ -1,6 +1,6 @@
 import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
-import hero from '../../assets/hero2.jpeg';
+import hero from '../../assets/hero.webp';
 import chessAI from '../../assets/ChessAI.png';   
 import peerio from '../../assets/peerio.png';
 

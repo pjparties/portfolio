@@ -1,7 +1,7 @@
 import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
-import about1 from '../../assets/about1.jpeg';
-import pizza from '../../assets/pizza.jpeg';
+import about1 from '../../assets/about1.webp';
+import pizza from '../../assets/pizza.webp';
 
 const AboutMe = () => {
     return (
