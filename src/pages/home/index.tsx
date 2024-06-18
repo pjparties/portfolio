@@ -32,7 +32,7 @@ const ProjectCard = ({ projImage, projTitle, projDesc, projLink }: { projImage: 
             </div>
             <div className="project-desc pt-5 mb-3">
                 <h3 className="text-2xl md:text-3xl tracking-wide font-mono font-bold mb-6 text-left">{projTitle}</h3>
-                <p className="text-xl md:text-xl tracking-wide font-normal leading-5 text-left">{projDesc}</p>
+                <p className="text-xl md:text-xl tracking-wide font-light leading-5 text-left">{projDesc}</p>
             </div>
         </a>
 
