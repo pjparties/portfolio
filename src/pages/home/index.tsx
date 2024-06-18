@@ -26,7 +26,7 @@ const Hero = () => {
 
 const ProjectCard = ({ projImage, projTitle, projDesc, projLink }: { projImage: string, projTitle: string, projDesc: string, projLink: string }) => {
     return (
-        <a className="project-card w-fit text-primary flex flex-col" href={projLink}>
+        <a className="project-card w-fit text-primary flex flex-col" title='GitHub Link' href={projLink}>
             <div className="img-container w-fit h-fit hover:scale-105 eas duration-200 overflow-clip">
                 <img src={projImage} alt="Project Image" className="projectimage mx-auto h-full w-full bg-[radial-gradient(circle_at_50%_50%,var(--tw-gradient-stops))] from-[#d8ddf8] from-10% via-[#d8ddf8] via-40% to-background to-60%" />
             </div>
@@ -43,8 +43,8 @@ const Projects = () => {
 
     return (
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 mx-auto py-10">
-            <ProjectCard projImage={peerio} projTitle='🌱Peer.io' projDesc='Personal Project •  Full Stack PWA with websockets • Real-time chat application to connect like-minded users for productivity eg. Peer Programming' projLink='https://github.com/pjparties/peer-io-frontend' />
-            <ProjectCard projImage={chessAI} projTitle='♟️ChessAI' projDesc='Personal Project •  Deep Learning and Computer Vision • Live Chessboard annotation implementing research papers and analysis using Stockfish API' projLink='https://github.com/pjparties/chessAI' />
+            <ProjectCard projImage={peerio} projTitle='🌱Peer.io' projDesc='React, Node, TypeScript, WebSocket, Redis, SQL • Real-time PWA chat application to connect like-minded users for productivity eg. Peer Programming' projLink='https://github.com/pjparties/peer-io-frontend' />
+            <ProjectCard projImage={chessAI} projTitle='♟️ChessAI' projDesc='Python, Deep Learning, Flask, Computer Vision • Live Chessboard annotation implementing research papers and analysis using Stockfish API' projLink='https://github.com/pjparties/chessAI' />
         </div>
     )
 }

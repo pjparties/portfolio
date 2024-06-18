@@ -4,19 +4,19 @@ const Footer = () => {
     return (
         <footer className="bg-background my-8">
             <div className=" socials flex flex-row gap-8">
-                <a href="" target="_blank">
+                <a href="" title="Github" target="_blank">
                     <AiFillGithub size={40} className="text-secondary hover:text-secondaryLight cursor-pointer" onClick={() => window.open('https://github.com/pjparties')} />
                 </a>
-                <a href="" target="_blank">
+                <a href="" title="LinkedIn" target="_blank">
                     <AiFillLinkedin size={40} className="text-secondary hover:text-secondaryLight cursor-pointer" onClick={() => window.open('https://www.linkedin.com/in/parthjuneja/')} />
                 </a>
-                <a href="" target="_blank">
+                <a href="" title="Twitter/X" target="_blank">
                     <AiFillTwitterSquare size={40} className="text-secondary hover:text-secondaryLight cursor-pointer" onClick={() => window.open('https://twitter.com/pjparties')} />
                 </a>
             </div>
             <div className="contact-me mt-6">
                 <h1 className="getintouch text-secondary font-mono text-2xl font-semibold">
-                    Get in touch at <a href="mailto:parthhjuneja@gmail.com" className="hover:text-secondaryLight">parthhjuneja@gmail.com</a>
+                    Get in touch at <a title="email me" href="mailto:parthhjuneja@gmail.com" className="hover:text-secondaryLight">parthhjuneja@gmail.com</a>
                 </h1>
             </div>
             <div className="separator">

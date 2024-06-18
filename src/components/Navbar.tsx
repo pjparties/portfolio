@@ -30,7 +30,7 @@ const Navbar = () => {
                     </NavLink>
                 </li>
                 <li >
-                    <Link to='https://drive.google.com/file/d/1DSsBQ-5B7PWgkvMxHWVFi76wBePdqePO/view' className='p-4 hover:text-accent hover:font-bold text-primary mr-1 py-[10px] px-6 cursor-pointer duration-100'>
+                    <Link to='https://drive.google.com/file/d/1DSsBQ-5B7PWgkvMxHWVFi76wBePdqePO/view' title='Resume pdf' className='p-4 hover:text-accent hover:font-bold text-primary mr-1 py-[10px] px-6 cursor-pointer duration-100'>
                         RESUME
                     </Link>
 
