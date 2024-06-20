@@ -26,7 +26,9 @@ const Footer = () => {
             <div className="navigation-items text-primary flex flex-col md:flex-row items-center justify-center gap-6">
                 <Link to="/" className="nav-item hover:text-accent hover:font-semibold">HOME</Link>
                 <Link to="/about" className="nav-item hover:text-accent hover:font-semibold ">ABOUT</Link>
+                <a href="https://parth-time-dev.vercel.app/" className="nav-item hover:text-accent hover:font-semibold">BLOG</a>
                 <a href="https://drive.google.com/file/d/1DSsBQ-5B7PWgkvMxHWVFi76wBePdqePO/view" className="nav-item hover:text-accent hover:font-semibold">RESUME</a>
+                
             </div>
         </footer>
     );

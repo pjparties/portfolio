@@ -40,7 +40,7 @@ const AboutMe2 = () => {
                     I like playing <span className="font-bold">Guitar</span> and <span className="font-bold">Piano</span> in my free time. I listen to all kinds of music, but lately I've been into 70s Rock and 00s Hip-Hop.
                 </p>
                 <p className='text-xl !leading-loose mb-5'>
-                    I really believe in the positive energy through working out and sports, I play <span className="font-bold">Football</span> and <span className="font-bold">Chess</span>. 
+                    I really believe in the inflow of positive energy through working out and sports, so I play <span className="font-bold">Football</span> and <span className="font-bold">Chess</span>. 
                     I am a huge <span className="font-bold">Manchester United</span> fan and follow Chess tournaments occasionally.
                 </p>
                 <p className='text-xl !leading-loose mb-5'>

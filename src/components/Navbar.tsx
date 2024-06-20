@@ -30,10 +30,14 @@ const Navbar = () => {
                     </NavLink>
                 </li>
                 <li >
-                    <Link to='https://drive.google.com/file/d/1DSsBQ-5B7PWgkvMxHWVFi76wBePdqePO/view' title='Resume pdf' className='p-4 hover:text-accent hover:font-bold text-primary mr-1 py-[10px] px-6 cursor-pointer duration-100'>
+                    <Link to='https://parth-time-dev.vercel.app/' title='Read my Blog' className='p-4 hover:text-accent hover:font-bold text-primary mr-1 py-[10px] px-6 cursor-pointer duration-100'>
+                        BLOG
+                    </Link>
+                </li>
+                <li >
+                    <Link to='https://drive.google.com/file/d/1DSsBQ-5B7PWgkvMxHWVFi76wBePdqePO/view' title='Resume.pdf' className='p-4 hover:text-accent hover:font-bold text-primary mr-1 py-[10px] px-6 cursor-pointer duration-100'>
                         RESUME
                     </Link>
-
                 </li>
             </ul>
 
@@ -59,6 +63,11 @@ const Navbar = () => {
                     <NavLink to="/about" className='p-4 hover:text-accent text-lg my-[12px] px-[24px] hover:font-bold text-primary mr-1 py-[10px]  cursor-pointer duration-100'>
                         ABOUT
                     </NavLink>
+                </li>
+                <li >
+                    <Link to='https://parth-time-dev.vercel.app/' title='Read my Blog' className='p-4 hover:text-accent hover:font-bold text-primary mr-1 py-[10px] px-6 cursor-pointer duration-100'>
+                        BLOG
+                    </Link>
                 </li>
                 <li className='my-[12px] mr-[1px]'>
                     <Link to='https://drive.google.com/file/d/1DSsBQ-5B7PWgkvMxHWVFi76wBePdqePO/view' className='p-4 hover:text-accent text-lg my-[12px] px-[24px] hover:font-bold text-primary mr-1 py-[10px]  cursor-pointer duration-100'>
