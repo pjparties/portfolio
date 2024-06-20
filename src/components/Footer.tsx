@@ -1,6 +1,8 @@
 import { AiFillGithub, AiFillLinkedin, AiFillTwitterSquare } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
+// added new blog
+
 const Footer = () => {
     return (
         <footer className="bg-background my-8">
