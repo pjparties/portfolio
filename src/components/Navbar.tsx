@@ -35,7 +35,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li >
-                    <Link to='https://drive.google.com/file/d/1DSsBQ-5B7PWgkvMxHWVFi76wBePdqePO/view' title='Resume.pdf' className='p-4 hover:text-accent hover:font-bold text-primary mr-1 py-[10px] px-6 cursor-pointer duration-100'>
+                    <Link to='https://drive.google.com/file/d/1I11s5m0o6m_ynqV36y9-AesA84SCjYYc/view' title='Resume.pdf' className='p-4 hover:text-accent hover:font-bold text-primary mr-1 py-[10px] px-6 cursor-pointer duration-100'>
                         RESUME
                     </Link>
                 </li>
