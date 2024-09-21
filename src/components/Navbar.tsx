@@ -70,7 +70,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className='my-[12px] mr-[1px]'>
-                    <Link to='https://drive.google.com/file/d/1DSsBQ-5B7PWgkvMxHWVFi76wBePdqePO/view' className='p-4 hover:text-accent text-lg my-[12px] px-[24px] hover:font-bold text-primary mr-1 py-[10px]  cursor-pointer duration-100'>
+                    <Link to='https://drive.google.com/file/d/1I11s5m0o6m_ynqV36y9-AesA84SCjYYc/view' className='p-4 hover:text-accent text-lg my-[12px] px-[24px] hover:font-bold text-primary mr-1 py-[10px]  cursor-pointer duration-100'>
                         RESUME
                     </Link>
                 </li>
