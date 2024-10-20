@@ -11,8 +11,8 @@ const AboutMe = () => {
                     About Me
                 </h1>
                 <p className='text-xl !leading-loose mb-2 md:mb-5'>
-                    <span className='font-bold'>TLDR; </span>I'm a dynamic and enthusiastic young engineer, driven by a passion
-                    for innovation at the intersection of <span className='font-bold'>intuitive design, scalable and sustainable engineering </span>, and the application
+                    <span className='font-bold'>TLDR; </span>I'm a young engineer, driven by a passion
+                    for innovation at the intersection of <span className='font-bold'>intuitive design, scalable and sustainable engineering</span>, and the application
                     of <span className='font-bold'>AI</span> to address real-world challenges.
                 </p>
                 <p className='text-xl !leading-loose mb-2 md:mb-5'>
@@ -37,7 +37,7 @@ const AboutMe2 = () => {
                 <p className='text-xl !leading-loose mb-5'>
                     I really enjoy cooking and eating good food <span className='italic'>(if you didn't really notice the pizza)</span>. 
                     I <span className="font-bold">meal-prep high-protein recipes</span> each week that keeps me on track with my diet. I am a huge music buff, 
-                    I like playing <span className="font-bold">Guitar</span> and <span className="font-bold">Piano</span> in my free time. I listen to all kinds of music, but lately I've been into 70s Rock and 00s Hip-Hop.
+                    I like playing <span className="font-bold">Guitar</span> and <span className="font-bold">Piano</span> in my free time. I listen to all kinds of music, but lately I've been into <span className='line-through'> 70s Rock and neo Hip-Hop</span> 2010s EDM and Alternative-Rock.
                 </p>
                 <p className='text-xl !leading-loose mb-5'>
                     I really believe in the inflow of positive energy through working out and sports, so I play <span className="font-bold">Football</span> and <span className="font-bold">Chess</span>. 

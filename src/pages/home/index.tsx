@@ -43,8 +43,8 @@ const Projects = () => {
 
   return (
     <div className="container grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 mx-auto py-10">
-      <ProjectCard projImage={peerio} projTitle='🫂Peer.io' projDesc='React, Node.JS, Express, TypeScript, Socket.io, Postgres • Real-time chat and match-making web app to connect like-minded users for productivity.' projLink='https://peer-io.vercel.app/' />
       <ProjectCard projImage={perfume} projTitle='🫧PerfumeFinder' projDesc='NextJS, Flask, Python, Machine Learning, REST APIs, SQLite • Fuzzy Search Perfume recommendations using AI based on Popular perfumes.' projLink='https://perfumefinder.vercel.app/' />
+      <ProjectCard projImage={peerio} projTitle='🫂Peer.io' projDesc='React, Node.JS, Express, TypeScript, Socket.io, Postgres • Real-time chat and match-making web app to connect like-minded users for productivity.' projLink='https://peer-io.vercel.app/' />
     </div>
   )
 }

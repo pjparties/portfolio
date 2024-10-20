@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillLinkedin, AiFillTwitterSquare } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillTwitterSquare, AiFillSpotify } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 // added new blog
@@ -16,6 +16,10 @@ const Footer = () => {
                 <a href="" title="Twitter/X" target="_blank">
                     <AiFillTwitterSquare size={40} className="text-secondary hover:text-secondaryLight cursor-pointer" onClick={() => window.open('https://twitter.com/pjparties')} />
                 </a>
+                <a href="" title="Twitter/X" target="_blank">
+                    <AiFillSpotify size={40} className="text-secondary hover:text-secondaryLight cursor-pointer" onClick={() => window.open('https://open.spotify.com/user/m8qutyj9n4xjk8ics5s6qiyuc?si=40af0badba5c4af7')} />
+                </a>
+
             </div>
             <div className="contact-me mt-6">
                 <h1 className="getintouch text-secondary font-mono text-2xl font-semibold">
